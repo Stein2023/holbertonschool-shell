@@ -1,4 +1,25 @@
 #!/bin/bash
 current_directory=$(pwd)
+echo $current_directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:**--F1  0-current_working_directory   All L3    Git-master  (Shell-script[bash]) ------------
 
 
