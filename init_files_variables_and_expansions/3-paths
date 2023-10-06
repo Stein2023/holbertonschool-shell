@@ -1,1 +1,2 @@
 #!/bin/bash
+echo "Number of directories in the PATH: $(echo $PATH | tr ':' '\n' | wc -l)"
