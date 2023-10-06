@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Number of directories in the PATH: $(echo $PATH | tr -s ':' '\n' | grep -c -v '^$')"
+echo "Number of directories in the PATH: $(echo $PATH | tr -cd ':' | wc -c)"
+
