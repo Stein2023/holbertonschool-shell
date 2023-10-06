@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "Result of BREATH to the power LOVE: $(bc <<< "scale=2; $BREATH^$LOVE")\n"
+echo $(($BREATH ** $LOVE))
