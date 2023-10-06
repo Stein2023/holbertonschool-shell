@@ -1,2 +1,2 @@
 #!/bin/bash
-$((2#101101))
+echo -e "Decimal equivalent of binary number $BINARY: $((2#${BINARY}))\n"
